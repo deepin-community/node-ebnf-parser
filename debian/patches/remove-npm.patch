@@ -1,0 +1,22 @@
+Description: Remove npm
+Index: node-ebnf-parser/Makefile
+===================================================================
+--- node-ebnf-parser.orig/Makefile
++++ node-ebnf-parser/Makefile
+@@ -2,13 +2,13 @@
+ all: install build test
+ 
+ install:
+-	npm install
++#	npm install
+ 
+ build:
+-	nodejs ./node_modules/.bin/jison bnf.y bnf.l
++	jison bnf.y bnf.l
+ 	mv bnf.js parser.js
+ 
+-	nodejs ./node_modules/.bin/jison ebnf.y
++	jison ebnf.y
+ 	mv ebnf.js transform-parser.js
+ 
+ test:

@@ -1,0 +1,35 @@
+node-ebnf-parser (0.1.10+dfsg-4) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Add upstream/metadata
+  * Add dependency to node-lex-parser (fixes debci)
+  * Use pkg-js-tools auto test & install
+  * Update VCS fields to salsa
+  * Add patch descriptions
+  * Fix copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 22 Jan 2020 12:08:28 +0100
+
+node-ebnf-parser (0.1.10+dfsg-3) unstable; urgency=medium
+
+  * Switch to main as jison is now available in main (Closes: #840543)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 20 Oct 2016 13:38:08 +0530
+
+node-ebnf-parser (0.1.10+dfsg-2) unstable; urgency=medium
+
+  * Install generated js files
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 15 Oct 2016 22:22:01 +0530
+
+node-ebnf-parser (0.1.10+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #840196)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 09 Oct 2016 19:52:11 +0530
